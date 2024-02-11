@@ -14,7 +14,7 @@ class SignUpPage extends StatelessWidget {
     return Scaffold(
       body: Stack(
         children: [
-          SingleChildScrollView(
+        
             child: Column(
               children: [
                 Container(
@@ -45,7 +45,7 @@ class SignUpPage extends StatelessWidget {
                 )
               ],
             ),
-          ),
+          
           Column(
             children: [
               Container(
@@ -83,6 +83,7 @@ class SignUpPage extends StatelessWidget {
                     borderRadius: BorderRadius.only(topRight: Radius.circular(75)),
                   ),
                   padding: const EdgeInsets.all(16.0),
+                child: SingleChildScrollView()
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
